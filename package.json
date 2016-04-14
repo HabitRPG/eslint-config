@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-habitrpg",
+  "version": "0.0.1",
+  "description": "Eslint config for HabitRPG projects",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HabitRPG/eslint-config.git"
+  },
+  "keywords": [
+    "habitica",
+    "habitrpg",
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "HabitRPG, Inc",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HabitRPG/eslint-config/issues"
+  },
+  "homepage": "https://github.com/HabitRPG/eslint-config#readme",
+  "peerDependencies": {
+    "babel-eslint": "^6.0.2",
+    "eslint": "^2.7.0",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-mocha": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0"
+  }
+}
