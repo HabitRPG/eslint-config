@@ -56,7 +56,6 @@ module.exports = {
     'no-path-concat': 2,
     'no-process-env': 2,
     'no-proto': 2,
-    'no-return-assign': 2,
     'no-self-compare': 2,
     'no-sequences': 2,
     'no-shadow': [2, { builtinGlobals: true }],
