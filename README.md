@@ -45,6 +45,10 @@ In your project's `.eslintrc`:
 
 **Note:** The mocha config requires you to install [eslint-plugin-mocha](http://npmjs.com/eslint-plugin-mocha)
 
+```bash
+npm install -D eslint-plugin-mocha eslint-config-habitrpg
+```
+
 ```json
 {
   "extends": "habitrpg/mocha",
@@ -57,6 +61,10 @@ In your project's `.eslintrc`:
 ### browserify + babel
 
 **Note:** The babel config requires you to install [eslint-plugin-babel](http://npmjs.com/eslint-plugin-babel) and [babel-eslint](https://npmjs.com/babel-eslint)
+
+```bash
+npm install -D eslint-plugin-babel babel-eslint eslint-config-habitrpg
+```
 
 ```json
 {
