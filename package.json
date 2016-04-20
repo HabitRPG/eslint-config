@@ -24,8 +24,10 @@
   },
   "homepage": "https://github.com/HabitRPG/eslint-config#readme",
   "peerDependencies": {
+    "eslint": "^2.7.0"
+  },
+  "optionalDependencies": {
     "babel-eslint": "^6.0.2",
-    "eslint": "^2.7.0",
     "eslint-plugin-babel": "^3.2.0",
     "eslint-plugin-mocha": "^2.1.0"
   },
