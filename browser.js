@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '.',
+  extends: 'habitrpg',
   env: {
     browser: true,
     commonjs: true,

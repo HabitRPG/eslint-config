@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '.',
+  extends: 'habitrpg',
   env: {
     mocha: true,
   },
