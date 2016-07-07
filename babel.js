@@ -1,5 +1,5 @@
 module.exports = {
-  extends: './es6',
+  extends: 'habitrpg/es6',
   parser: 'babel-eslint',
   parserOptions: {
     sourceType: 'module',
