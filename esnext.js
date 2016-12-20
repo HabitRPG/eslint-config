@@ -1,6 +1,6 @@
 module.exports = {
-  ecmaVersion: 7, // allows async-await
   parserOptions: {
+    ecmaVersion: 7,
     sourceType: 'module',
   },
   rules: {
