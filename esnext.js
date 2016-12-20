@@ -1,7 +1,13 @@
 module.exports = {
   parserOptions: {
-    ecmaVersion: 7,
+    ecmaVersion: 8,
     sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
+  },
+  env: {
+    es6: true,
   },
   rules: {
     'arrow-spacing': 2,
@@ -15,4 +21,3 @@ module.exports = {
     'prefer-template': 2,
   },
 };
-

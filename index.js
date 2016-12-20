@@ -20,7 +20,7 @@ module.exports = {
     'func-style': [2, 'declaration'],
     'global-require': 2,
     'handle-callback-err': [2, '^.*(e|E)rr'],
-    indent: [2, 2, {SwitchCase: 1}],
+    indent: [2, 2, {SwitchCase: 1, ObjectExpression: 'first', ArrayExpression: 'first'}],
     'key-spacing': [2, { beforeColon: false, afterColon: true }],
     'linebreak-style': [2, 'unix'],
     'max-nested-callbacks': [2, 3],
