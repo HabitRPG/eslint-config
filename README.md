@@ -58,25 +58,10 @@ npm install -D eslint-plugin-mocha eslint-config-habitrpg
 }
 ```
 
-### browserify + babel
+### esnext
 
-**Note:** The babel config requires you to install [eslint-plugin-babel](http://npmjs.com/eslint-plugin-babel) and [babel-eslint](https://npmjs.com/babel-eslint)
-
-```bash
-npm install -D eslint-plugin-babel babel-eslint eslint-config-habitrpg
-```
-
-```json
-{
-  "extends": [
-    "habitrpg/browser",
-    "habitrpg/babel"
-  ],
-  "rules": {
-    "locally-overriden-rule": 1
-  }
-}
-```
+This version is meant to be used with code written in ES6+ (babel is ok). 
+It will currently parse code according to ecmaScript version 7.
 
 ---
 

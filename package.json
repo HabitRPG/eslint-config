@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-habitrpg",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Eslint config for HabitRPG projects",
   "main": "index.js",
   "scripts": {
@@ -24,14 +24,12 @@
   },
   "homepage": "https://github.com/HabitRPG/eslint-config#readme",
   "peerDependencies": {
-    "eslint": "^2.7.0"
+    "eslint": "^3.0.0"
   },
   "optionalDependencies": {
-    "babel-eslint": "^6.0.2",
-    "eslint-plugin-babel": "^3.2.0",
-    "eslint-plugin-mocha": "^2.1.0"
+    "eslint-plugin-mocha": "^4.7.0"
   },
   "devDependencies": {
-    "eslint": "^2.7.0"
+    "eslint": "^3.0.0"
   }
 }

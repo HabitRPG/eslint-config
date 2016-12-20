@@ -25,6 +25,7 @@ module.exports = {
     'linebreak-style': [2, 'unix'],
     'max-nested-callbacks': [2, 3],
     'new-parens': 2,
+    'new-cap': 2,
     'no-array-constructor': 2,
     'no-caller': 2,
     'no-class-assign': 2,
