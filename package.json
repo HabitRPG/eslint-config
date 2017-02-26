@@ -27,7 +27,8 @@
     "eslint": "^3.0.0"
   },
   "optionalDependencies": {
-    "eslint-plugin-mocha": "^4.7.0"
+    "eslint-plugin-mocha": "^4.7.0",
+    "eslint-plugin-lodash": "^2.3.5"
   },
   "devDependencies": {
     "eslint": "^3.0.0"

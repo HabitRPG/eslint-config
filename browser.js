@@ -9,4 +9,8 @@ module.exports = {
     console: false,
     debugger: false,
   },
+  plugins: ['lodash'],
+  rules: {
+    'lodash/import-scope': [2, 'method'],
+  },
 };
