@@ -15,7 +15,7 @@ module.exports = {
     'constructor-super': 2,
     'dot-location': [2, 'property'],
     'dot-notation': 2,
-    eqeqeq: 2,
+    eqeqeq: [2, 'allow-null'],
     'func-names': 2,
     'func-style': [2, 'declaration'],
     'global-require': 2,
