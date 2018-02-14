@@ -2,6 +2,7 @@
 module.exports = {
   extends: 'eslint:recommended',
   rules: {
+    'no-useless-escape': 'off',
     'array-bracket-spacing': [2, 'never'],
     'block-scoped-var': 2,
     'block-spacing': [2, 'always'],
