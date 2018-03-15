@@ -23,14 +23,13 @@
     "url": "https://github.com/HabitRPG/eslint-config/issues"
   },
   "homepage": "https://github.com/HabitRPG/eslint-config#readme",
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-vue": "^4.2.0"
+  },
   "peerDependencies": {
-    "eslint": "^4.0.0"
-  },
-  "optionalDependencies": {
-    "eslint-plugin-mocha": "^4.7.0",
-    "eslint-plugin-lodash": "^2.3.5"
-  },
-  "devDependencies": {
     "eslint": "^4.0.0"
   }
 }
