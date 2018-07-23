@@ -3,9 +3,9 @@ habitrpg-eslint-config
 Shared linting configuration for [HabitRPG, Inc](https://github.com/HabitRPG) projects.
 
 ## Version 5
-- [index.js](./index.js): link to node.js configuration
-- [node.js](./node.js): configuration for server side and Node.js projects
-- [vue.js](./vue.js): configuration for Vue.js projects
+- [index.js](index.js): link to node.js configuration
+- [node.js](lib/node.js): configuration for server side and Node.js projects
+- [vue.js](lib/vue.js): configuration for Vue.js projects
 
 A set of reusable ESLint rules based on [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript).
 
@@ -37,12 +37,11 @@ For usage see https://github.com/vuejs/eslint-plugin-vue. Right now all reccomen
 
 ## Version 4 (currently in use for habitica.com)
 
-- [index.js](./index.js): base configuration
-- [server.js](./server.js): special rules for code on the server
-- [browser.js](./browser.js): special rules for code on the browser
-- [es6.js](./es6.js): special rules for es6 code
-- [babel.js](./babel.js): inherits from es6 and adds babel specific rules
-- [mocha.js](./mocha.js): special rules for the moch test framework
+- [index.js](https://github.com/HabitRPG/eslint-config/blob/v4.0.0/index.js): base configuration
+- [server.js](https://github.com/HabitRPG/eslint-config/blob/v4.0.0/server.js): special rules for code on the server
+- [browser.js](https://github.com/HabitRPG/eslint-config/blob/v4.0.0/browser.js): special rules for code on the browser
+- [esnext.js](https://github.com/HabitRPG/eslint-config/blob/v4.0.0/esnext.js): special rules for es6 code
+- [mocha.js](https://github.com/HabitRPG/eslint-config/blob/v4.0.0/mocha.js): special rules for the moch test framework
 
 ### Consuming
 
