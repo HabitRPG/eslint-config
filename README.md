@@ -2,10 +2,11 @@ habitrpg-eslint-config
 ===
 Shared linting configuration for [HabitRPG, Inc](https://github.com/HabitRPG) projects.
 
-## Version 5
+## Version 6
 - [index.js](index.js): link to node.js configuration
 - [node.js](lib/node.js): configuration for server side and Node.js projects
 - [vue.js](lib/vue.js): configuration for Vue.js projects
+- [mocha.js](lib/mocha.js): configuration for Mocha test files
 
 A set of reusable ESLint rules based on [Airbnb JavaScript Style Guide() {](https://github.com/airbnb/javascript).
 
@@ -35,7 +36,7 @@ For usage see https://github.com/vuejs/eslint-plugin-vue. Right now all reccomen
 }
 ```
 
-## Version 4 (currently in use for habitica.com)
+## Version 4
 
 - [index.js](https://github.com/HabitRPG/eslint-config/blob/v4.0.0/index.js): base configuration
 - [server.js](https://github.com/HabitRPG/eslint-config/blob/v4.0.0/server.js): special rules for code on the server
