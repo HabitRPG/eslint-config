@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-habitrpg",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Eslint config for HabitRPG projects",
   "main": "index.js",
   "scripts": {
