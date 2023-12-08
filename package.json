@@ -25,7 +25,7 @@
   "homepage": "https://github.com/HabitRPG/eslint-config#readme",
   "dependencies": {
     "eslint": "^6.5.1",
-    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-mocha": "^6.1.1",
     "eslint-plugin-vue": "^5.2.3"
